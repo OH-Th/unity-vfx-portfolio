@@ -1,0 +1,1 @@
+const tabs=[...document.querySelectorAll('[role="tab"]')];tabs.forEach(tab=>tab.addEventListener('click',()=>{tabs.forEach(t=>{let active=t===tab;t.setAttribute('aria-selected',String(active));let el=document.getElementById(t.getAttribute('aria-controls'));if(el)el.hidden=!active;});}));
