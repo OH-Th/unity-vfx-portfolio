@@ -15,3 +15,5 @@
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important}}
 
 .work-scope{margin:0;display:grid;gap:14px}.work-scope>div{display:grid;grid-template-columns:80px minmax(0,1fr);gap:12px}.work-scope dt{font-size:14px;font-weight:700;color:var(--fg)}.work-scope dd{margin:0;font-size:14px;line-height:1.7;color:var(--sub)}@media(max-width:590px){.work-scope>div{grid-template-columns:70px minmax(0,1fr);gap:10px}.work-scope dt,.work-scope dd{font-size:13px}}
+
+.wholemart-page .featured-video{aspect-ratio:auto;height:min(70vh,620px);background:#101722}.wholemart-page .featured-video>img,.wholemart-page .clip-thumb img{object-fit:contain;filter:none}.wholemart-page .clip-thumb{aspect-ratio:1/1;background:#101722}.wholemart-page .clip-caption{align-items:flex-start;flex-direction:column;gap:7px}.wholemart-page .clip-caption small{text-align:left}.game-image img.wholemart-cover{object-fit:contain;background:#101722}.wholemart-page .full-player video{height:min(75vh,690px);object-fit:contain}@media(max-width:590px){.wholemart-page .clip-thumb{aspect-ratio:4/5}.wholemart-page .watch-caption{font-size:13px}}
