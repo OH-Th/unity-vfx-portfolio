@@ -27,3 +27,5 @@
 .drawing-tools img[src$="aseprite.png"]{image-rendering:pixelated}
 
 :where(a,button,summary):focus-visible{outline:2px solid var(--accent);outline-offset:4px}
+
+.brand .brand-mark{width:34px;height:34px;flex:none}.brand>span{display:flex;align-items:center;gap:10px}@media(max-width:590px){.brand .brand-mark{width:28px;height:28px}.brand>span{gap:6px}}
